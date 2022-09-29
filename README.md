@@ -1,6 +1,6 @@
 # IBM-Project-25900-1664352739
-
-<h1>Personal Expense Tracker Application</h1>
+<hr>
+<h3>Personal Expense Tracker Application</h3>
 <hr>
 Team ID : PNT2022TMID16346 <br>
 Team Size : 5 <br>
