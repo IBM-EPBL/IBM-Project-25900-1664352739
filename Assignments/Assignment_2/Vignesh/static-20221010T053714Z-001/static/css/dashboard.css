@@ -1,0 +1,109 @@
+body {
+    background: #f6f6f6;
+    height: 100vh;
+  }
+  nav {
+    background-color: white;
+  }
+  .search-form {
+    width: 50%;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    box-shadow: -1px 0 0 rgba(0, 0, 0, .1);
+    max-width: 10vw;
+    background-color: #444;
+  }
+  
+  #sidebar .nav-item {
+    text-align: center;
+    padding: 25px 0;
+  }
+  
+  #sidebar .nav-item a {
+    color: rgba(0,0,0,.2);
+  }
+  
+  #sidebar .nav-item a.active { 
+    color: #0d6efd;
+  }
+  
+  .vertical-nav {
+    margin-top: 20vh;
+  }
+  
+  .logo {
+    max-height: 35px;
+    margin: 21px 25px;
+  }
+  
+  a.navbar-brand {
+    text-align: center;
+    width: 100%;
+    display: block;
+  }
+
+  section {
+    margin: 10px;
+  }
+  .main {
+    padding: 2rem;
+    padding-top: calc(4rem + 74px)
+  }
+  .main .first-row, .main .second-row {
+    padding-bottom: 3rem;
+  }
+  .main .row .card {
+    height: 100%;
+  }
+  .card {
+    border: 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, .1);
+    max-height: 100%;
+  }
+  .card-header {
+    background: white;
+    font-weight: 700;
+    padding: 20px;
+  }
+  .card-body {
+    padding: 0.5rem;
+    font-size: 12px;
+  }
+  #recently-posted .card img {
+    padding-top: 0.5rem;
+  }
+  .stats .card-text {
+    padding-top: 5px;
+    padding-left: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .img-container {
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+  .card-img-top {
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+  }
+  .badge {
+    font-size: 18px;
+  }
+
+
+  #Topnav{
+    margin-left: 65px;
+    background-color: #444;
+  }
